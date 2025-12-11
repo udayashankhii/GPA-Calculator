@@ -11,7 +11,7 @@ const Hero = () => {
           PU Grade  <span className="text-indigo-600">GPA</span> Calculator
         </h1>
         <p className="text-xl text-gray-600">
-          Calculate your GPA for Software, Computer, or Civil Engineering streams
+          Calculate your GPA for Software, Computer, or Civil Engineering streams at Pokhara University
         </p>
 
         <div className="flex flex-col md:flex-row justify-center gap-4 mt-4">
