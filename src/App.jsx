@@ -6,6 +6,7 @@ import HomePage from "./Home/Home";
 import SoftwarePage from "./Software/Software.Page";
 import Register from "./Login/Register";
 import LoginForm from "./Login/LoginForm";
+import ComputerPage from "./Computer/Computer.Page";
 // import ComputerCgpa from "./components/Computer/Computer.Subjects";
 // import CivilCgpa from "./components/Civil/Civil.Subjects";
 
@@ -21,6 +22,8 @@ export default function App() {
 
 
           <Route path="/software" element={<SoftwarePage />} />
+          <Route path="/computer" element={<ComputerPage />} />
+
 
           {/* Add other streams */}
           {/* <Route path="/computer" element={<ComputerCgpa />} /> */}
