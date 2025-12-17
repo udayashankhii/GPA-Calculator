@@ -5,4 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // ✅ Correct config
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/", 
 })
